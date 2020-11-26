@@ -1,0 +1,138 @@
+@media(max-width:991px){
+    .menu__link{
+        margin: 15px 0 0 0;
+        display: block;
+        line-height: normal;
+    }
+    .header__info{
+        text-align: center;
+    }
+    .header__title{
+        font-size: 45px;
+    }
+    .header__description{
+        margin: 30px auto;
+    }
+    .portfolio__info{
+        padding: 0 20px !important;
+    }
+    .portfolio__info-title{
+        font-size: 30px;
+    }
+    .about__img{
+        width: 100%;
+    }
+    .about__info{
+        margin-top: 100px;
+        margin-left: 0;
+        color: var(--white);
+    }
+    .about__content-info{
+        padding: 50px 10px;
+    }
+    .about__info-link>i{
+        font-size: 20px;
+        margin: 0 7px;
+    }
+    .footer{
+        margin: 50px 0;
+    }
+    .footer__content{
+        flex-direction: column;
+    }
+    .footer__social-img{
+        margin-bottom: 30px;
+    }
+    .footer__title{
+        text-align: center;
+    }
+    .footer__contact-link{
+        margin: 0 20px 0 10px;
+    }
+}
+@media(max-width:767px){
+    .portfolio__info{
+        padding: 60px !important;
+    }
+    .portfolio__img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .line{
+        width: 100%;
+        height: 3px;
+        background: var(--light__grey);
+        display: block;
+    }
+    .about{
+        margin-bottom: 0;
+    }
+    .about__content {
+        margin: 80px 0 0 0;
+    }
+
+}
+@media(max-width:575px){
+    .navbar{
+        padding: 16px;
+    }
+    .header__title{
+        font-size: 36px;
+    }
+    .portfolio__img{
+        width: 100%;
+        height: 420px;
+    }
+    .portfolio__info{
+        padding: 60px 15px !important;
+    }
+    .portfolio__all-link{
+        padding: 0 20px;
+    }
+    .about__content{
+        padding: 20px;
+    }
+    .about__img {
+        max-width: 400px;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        margin: 10px 0 -30px;
+    }
+    .work__content{
+        padding: 30px;
+    }
+    .work__content-title{
+        font-size: 22px;
+    }
+    .work__content-info-title{
+        font-size: 22px;
+        margin-top: 70px;
+    }
+    .work__content-info-subtitle{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .work__content-description{
+        margin-bottom: 40px;
+    }
+    .work{
+        padding: 50px 0 10px;
+    }
+    .work__content-article{
+        margin-right: 0;
+    }
+    .footer__title{
+        font-size: 30px;
+    }
+    .footer__social-img{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .footer__contact-link{
+        display: block;
+        text-align: center;
+    }
+}
