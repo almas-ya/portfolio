@@ -66,18 +66,21 @@ ul{
 .header__info{
   margin-top: 100px;
   color: var(--white);
-  z-index: 2;
 }
 .header__title{
   font-family: var(--fRB), sans-serif;
   font-weight: 700;
   font-size: 50px;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 5;
 }
 .header__subtitle{
   letter-spacing: 1.2px;
   font-size: 20px;
   margin-bottom: 40px;
+  position: relative;
+  z-index: 5;
 }
 .header__description {
   font-family: var(--fRM), sans-serif;
@@ -86,6 +89,8 @@ ul{
   max-width: 600px;
   width: 100%;
   margin-bottom: 30px;
+  position: relative;
+  z-index: 5;
 }
 .header__btn{
   font-family: var(--fRM), sans-serif;
@@ -102,6 +107,8 @@ ul{
   transition: 1s;
   border: 2px solid var(--blue);
   display: inline-block;
+  position: relative;
+  z-index: 5;
 }
 .header__btn:hover{
   background-position: 0 0;
