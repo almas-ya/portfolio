@@ -133,13 +133,13 @@ ul{
   background: var(--dark__bg);
 }
 .portfolio__info-title{
-  font-size: 40px;
+  font-size: 39px;
   margin-bottom: 30px;
   text-transform: uppercase;
   text-align: center;
 }
 .portfolio__info-description{
-  max-width: 500px;
+  max-width: 495px;
   width: 100%;
   text-align: center;
   margin-bottom: 50px;
@@ -292,7 +292,7 @@ ul{
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   color: var(--white);
-  padding: 100px 0 10px;
+  padding: 100px 0 10px 30px;
 }
 .work__content-title{
   font-family: var(--fRM), sans-serif;
@@ -335,6 +335,9 @@ ul{
 .footer{
   margin: 100px 0;
 }
+.footer__info{
+  margin-left: 15px;
+}
 .footer__title{
   font-size: 40px;
   margin-bottom: 30px;
@@ -347,7 +350,7 @@ ul{
   width: 50px;
   height: 50px;
   object-fit: cover;
-  margin-right: 15px;
+  margin-right: 25px;
   transition: 0.4s;
 }
 .footer__social-img:hover{
@@ -358,7 +361,7 @@ ul{
   font-family: var(--fRM);
   font-weight: 500;
   font-size: 22px;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 .footer__contact-link:hover{
   color: var(--black);

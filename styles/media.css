@@ -19,8 +19,8 @@
     .portfolio__info-title{
         font-size: 30px;
     }
-    .about__img{
-        width: 100%;
+    .about__content-info{
+        padding: 0 50px;
     }
     .about__info{
         margin-top: 100px;
@@ -80,6 +80,9 @@
     .header__title{
         font-size: 36px;
     }
+    .header__info{
+        padding: 50px 0;
+    }
     .portfolio__img{
         width: 100%;
         height: 420px;
@@ -94,9 +97,9 @@
         padding: 20px;
     }
     .about__img {
-        max-width: 400px;
+        max-width: 300px;
         width: 100%;
-        height: 400px;
+        height: 280px;
         object-fit: cover;
         margin: 10px 0 -30px;
     }
