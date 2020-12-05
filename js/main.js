@@ -114,5 +114,4 @@ const particlesSettings = {
         "background_size": "cover"
     }
 }
-
 particlesJS('header', particlesSettings)
