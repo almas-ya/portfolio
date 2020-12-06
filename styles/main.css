@@ -18,7 +18,6 @@ body{
   font-weight: 400;
 }
 html{
-  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 a{
