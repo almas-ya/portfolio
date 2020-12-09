@@ -116,7 +116,7 @@ const particlesSettings = {
 }
 particlesJS('header', particlesSettings)
 
-$(".js-sroll-to-id").click(function (pnt) {
+$(".js-scroll-to-id").click(function (pnt) {
     pnt.preventDefault();
     let attr = $(this).attr("href");
     let toElement = $(attr).offset().top
